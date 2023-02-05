@@ -25,6 +25,65 @@
     .hero.layout-5 .outer {
         padding: 140px 0 140px;
     }
+    .features-2-wrap {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        }
+        .features-2-wrap .b40-1 {
+        display: none;
+        }
+        .features-2 .features-left .feature-icon {
+            float: left;
+        }
+        .features-2 .features-left .text {
+            float: none;
+        }
+        .text-right {
+            text-align: left;
+        }
+        .features-2 .item {
+            cursor: pointer;
+            transition: all linear .4s;
+            display: flex;
+            gap: 10px;
+            margin-top: 25px;
+        }
+        .features-2 .item:hover {
+            padding-right: 0px;
+            padding-left: 0px;
+        }
+        .features-2 .item .text h3 {
+            margin: 0px 0;
+        }
+        .features-2 .item .text p {
+            margin: 15px 0;
+        }
+        .video-2 .outer {
+            height: 230px;
+        }
+        .play-btn {
+            width: 75px;
+            height: 75px;
+        }
+        .video-2 .features .item p {
+            margin-bottom: 30px;
+        }
+        .blog .item .thumb {
+            height: auto;
+            max-width: 100%;
+            width: 100%;
+            margin-top: 20px;
+        }
+        .clients .client-item{
+            margin: 15px 0;
+        }
+        .top_up.top_show a {
+            padding: 7px;
+        }
+        .top_up {
+            font-size: 20px;
+        }
 }
 @media (max-width: 575.98px) {
     .navbar-expand-lg .navbar-nav {
