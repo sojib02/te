@@ -1,0 +1,135 @@
+
+@media (min-width: 1400px) {
+    
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-expand-lg .navbar-nav {
+        gap: 20px;
+        padding: 15px 0;
+      }
+    .navbar-toggler:focus {
+        box-shadow: none;
+      }
+    section {
+        padding: 50px 0;
+    }
+    .hero.layout-5 .outer {
+        padding: 140px 0 140px;
+    }
+}
+@media (max-width: 575.98px) {
+    .navbar-expand-lg .navbar-nav {
+        gap: 0px;
+        padding: 15px 0;
+      }
+    .navbar-toggler:focus {
+        box-shadow: none;
+      }
+    section {
+    padding: 50px 0;
+    }
+    .hero .cta a.btn {
+        margin-right: 0px;
+
+    }
+    
+    .btn {
+        padding: 7px 10px;
+    }
+    .btn-download i {
+        font-size: 20px;
+        display: inline-block;
+        margin-right: 0px;
+        vertical-align: text-bottom;
+    }
+    .slick-list.draggable{
+        padding: 0px 20px;
+    }
+    .reviews-parallax .reviews-nav .thumb {
+        cursor: pointer;
+        border-radius: 50%;
+        overflow: hidden;
+        outline: none;
+        opacity: .3;
+        margin: 0 5px;
+        height: 60px;
+        width: 60px !important;
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+    }
+    .hero.layout-5 .outer {
+        padding: 120px 0 120px;
+      }
+    .work-process .item p {
+        padding-bottom: 30px;
+    }
+    .features-2-wrap {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+    .features-2-wrap .b40-1 {
+    display: none;
+    }
+    .features-2 .features-left .feature-icon {
+        float: left;
+    }
+    .features-2 .features-left .text {
+        float: none;
+    }
+    .text-right {
+        text-align: left;
+    }
+    .features-2 .item {
+        cursor: pointer;
+        transition: all linear .4s;
+        display: flex;
+        gap: 10px;
+        margin-top: 25px;
+    }
+    .features-2 .item:hover {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .features-2 .item .text h3 {
+        margin: 0px 0;
+    }
+    .features-2 .item .text p {
+        margin: 15px 0;
+    }
+    .video-2 .outer {
+        height: 230px;
+    }
+    .play-btn {
+        width: 75px;
+        height: 75px;
+    }
+    .video-2 .features .item p {
+        margin-bottom: 30px;
+    }
+    .blog .item .thumb {
+        height: auto;
+        max-width: 100%;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .clients .client-item{
+        margin: 15px 0;
+    }
+    .top_up.top_show a {
+        padding: 7px;
+    }
+    .top_up {
+        font-size: 20px;
+    }
+} 
